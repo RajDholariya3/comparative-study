@@ -13,6 +13,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import os
 app = Flask(__name__)
 
+
+
 CSV_FILE_PATH = "diabetes.csv"  # Change this path to the actual CSV file
 
 def preprocess_data(df):
